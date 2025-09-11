@@ -16,7 +16,7 @@
     "statusBarItem.prominentForeground": "#ffffff",
     "statusBarItem.prominentHoverBackground": "#000000",
     "editor.background": "#000000",
-    "editor.foreground": "#ffffff",
+    "editor.foreground": "#E6E6E6",
     "editorLineNumber.activeForeground": "#00FF00",
     "statusBarItem.errorForeground": "#FF0000",
     "statusBar.background": "#000000",
@@ -162,7 +162,7 @@
         "variable.function"
       ],
       "settings": {
-        "foreground": "#00CCFF"
+        "foreground": "#FFFF00"
       }
     },
     {
@@ -188,7 +188,7 @@
         "variable.other.constant"
       ],
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#99DDFF"
       }
     },
     {
@@ -199,7 +199,7 @@
         "meta.object-literal.key"
       ],
       "settings": {
-        "foreground": "#EE00FF"
+        "foreground": "#B3B3FF"
       }
     },
     {
@@ -211,7 +211,18 @@
         "constant.other"
       ],
       "settings": {
-        "foreground": "#FFFF00"
+        "foreground": "#00FFCC"
+      }
+    },
+    {
+      "name": "Template Literal Placeholders",
+      "scope": [
+        "punctuation.definition.template-expression",
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end"
+      ],
+      "settings": {
+        "foreground": "#00FFCC"
       }
     },
     {
@@ -352,7 +363,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#FFFFFF"
+        "foreground": "#E6E6E6"
       }
     },
     {
@@ -362,7 +373,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#FFFFFF"
+        "foreground": "#E6E6E6"
       }
     },
     {
@@ -410,7 +421,7 @@
         "constant.character.escape"
       ],
       "settings": {
-        "foreground": "#FFFF00"
+        "foreground": "#FF00FF"
       }
     },
     {
@@ -421,7 +432,7 @@
         "punctuation.section.embedded.end"
       ],
       "settings": {
-        "foreground": "#EE00FF"
+        "foreground": "#FF00FF"
       }
     },
     {
@@ -517,11 +528,43 @@
     {
       "name": "JavaScript Template Literals",
       "scope": [
-        "string.template",
-        "punctuation.definition.template-expression"
+        "string.template"
       ],
       "settings": {
         "foreground": "#00FF00"
+      }
+    },
+    {
+      "name": "Template Expression Brackets Override",
+      "scope": [
+        "meta.embedded.line.js punctuation.section.embedded",
+        "meta.embedded.line.js punctuation.section.embedded.begin",
+        "meta.embedded.line.js punctuation.section.embedded.end",
+        "string.template meta.embedded.line punctuation.section.embedded",
+        "string.template punctuation.section.embedded",
+        "string.template.js punctuation.definition.template-expression",
+        "string.template.js punctuation.definition.template-expression.begin",
+        "string.template.js punctuation.definition.template-expression.end",
+        "meta.template.expression punctuation.definition.template-expression",
+        "punctuation.definition.template-expression.begin.ts",
+        "punctuation.definition.template-expression.end.ts"
+      ],
+      "settings": {
+        "foreground": "#FF00FF"
+      }
+    },
+    {
+      "name": "Template Expression Punctuation",
+      "scope": [
+        "punctuation.definition.template-expression",
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end",
+        "punctuation.definition.template-expression.begin.js",
+        "punctuation.definition.template-expression.end.js",
+        "meta.template.expression.js"
+      ],
+      "settings": {
+        "foreground": "#FF00FF"
       }
     },
     {
