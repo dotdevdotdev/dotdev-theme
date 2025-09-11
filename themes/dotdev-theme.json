@@ -328,9 +328,36 @@
       }
     },
     {
-      "name": "JSON Keys",
+      "name": "JSON Keys - Deep Level 3+",
       "scope": [
-        "support.type.property-name.json"
+        "source.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#F0DDFF"
+      }
+    },
+    {
+      "name": "JSON Keys - Deep Level 2",
+      "scope": [
+        "source.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#E0BBFF"
+      }
+    },
+    {
+      "name": "JSON Keys - Nested Level 1",
+      "scope": [
+        "source.json meta.structure.dictionary.value.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#D099FF"
+      }
+    },
+    {
+      "name": "JSON Keys - Root Level",
+      "scope": [
+        "source.json support.type.property-name.json"
       ],
       "settings": {
         "foreground": "#BB66FF"
