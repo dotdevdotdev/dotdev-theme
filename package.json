@@ -1,0 +1,52 @@
+{
+	"name": "dotdev-theme",
+	"displayName": "DotDev Theme",
+	"description": "DotDev is a dark theme for Visual Studio Code designed for developer productivity.",
+	"version": "1.0.0",
+	"publisher": "dotdevdotdev",
+	"author": {
+		"name": "DotDevDotDev",
+		"url": "https://dotdev.dev"
+	},
+	"license": "SEE LICENSE IN LICENSE.md",
+	"keywords": [
+		"DotDev Theme",
+		"DotDev",
+		"Dark Theme",
+		"Color Theme",
+		"javascript",
+		"typescript",
+		"php",
+		"css",
+		"scss",
+		"vscode"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dotdevdotdev/dotdev-theme"
+	},
+	"homepage": "https://github.com/dotdevdotdev/dotdev-theme",
+	"bugs": {
+		"url": "https://github.com/dotdevdotdev/dotdev-theme/issues"
+	},
+	"engines": {
+		"vscode": "^1.53.2"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "DotDev",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dotdev-theme.json"
+			}
+		]
+	},
+	"icon": "images/icon.png",
+	"galleryBanner": {
+		"color": "#000000",
+		"theme": "dark"
+	}
+}
