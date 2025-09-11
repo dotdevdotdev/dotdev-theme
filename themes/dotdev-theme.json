@@ -137,7 +137,7 @@
         "keyword.operator.sizeof"
       ],
       "settings": {
-        "foreground": "#EE00FF"
+        "foreground": "#BB66FF"
       }
     },
     {
@@ -176,7 +176,7 @@
         "support.type"
       ],
       "settings": {
-        "foreground": "#CC00FF"
+        "foreground": "#BB66FF"
       }
     },
     {
@@ -233,7 +233,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#EE00FF"
+        "foreground": "#BB66FF"
       }
     },
     {
@@ -262,7 +262,7 @@
         "entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#EE00FF"
+        "foreground": "#BB66FF"
       }
     },
     {
@@ -273,7 +273,7 @@
         "punctuation.definition.tag"
       ],
       "settings": {
-        "foreground": "#CC00FF"
+        "foreground": "#BB66FF"
       }
     },
     {
@@ -284,7 +284,7 @@
         "entity.other.attribute-name.class.html"
       ],
       "settings": {
-        "foreground": "#EE00FF"
+        "foreground": "#BB66FF"
       }
     },
     {
@@ -294,7 +294,7 @@
         "support.type.vendored.property-name"
       ],
       "settings": {
-        "foreground": "#EE00FF"
+        "foreground": "#BB66FF"
       }
     },
     {
@@ -333,7 +333,7 @@
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#EE00FF"
+        "foreground": "#BB66FF"
       }
     },
     {
@@ -349,11 +349,19 @@
       "name": "Markdown Headings",
       "scope": [
         "markup.heading",
-        "entity.name.section.markdown"
+        "entity.name.section.markdown",
+        "heading.1.markdown",
+        "heading.2.markdown",
+        "heading.3.markdown",
+        "heading.4.markdown",
+        "heading.5.markdown",
+        "heading.6.markdown",
+        "markup.heading.markdown",
+        "punctuation.definition.heading.markdown"
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#EE00FF"
+        "foreground": "#BB66FF"
       }
     },
     {
@@ -363,7 +371,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#E6E6E6"
+        "foreground": "#99DDFF"
       }
     },
     {
@@ -453,7 +461,7 @@
         "constant.language.boolean"
       ],
       "settings": {
-        "foreground": "#EE00FF"
+        "foreground": "#BB66FF"
       }
     },
     {
@@ -501,7 +509,7 @@
         "punctuation.definition.variable.php"
       ],
       "settings": {
-        "foreground": "#EE00FF"
+        "foreground": "#BB66FF"
       }
     },
     {
@@ -576,7 +584,7 @@
         "support.type.primitive.tsx"
       ],
       "settings": {
-        "foreground": "#CC00FF"
+        "foreground": "#BB66FF"
       }
     },
     {
@@ -586,7 +594,7 @@
         "entity.name.tag.jsx"
       ],
       "settings": {
-        "foreground": "#CC00FF"
+        "foreground": "#BB66FF"
       }
     },
     {
@@ -596,7 +604,7 @@
         "entity.other.attribute-name.jsx"
       ],
       "settings": {
-        "foreground": "#EE00FF"
+        "foreground": "#BB66FF"
       }
     },
     {
@@ -606,7 +614,7 @@
         "punctuation.attribute-shorthand.event.html.vue"
       ],
       "settings": {
-        "foreground": "#EE00FF"
+        "foreground": "#BB66FF"
       }
     },
     {
@@ -615,7 +623,7 @@
         "entity.name.tag.yaml"
       ],
       "settings": {
-        "foreground": "#EE00FF"
+        "foreground": "#BB66FF"
       }
     },
     {
@@ -624,7 +632,7 @@
         "support.type.property-name.toml"
       ],
       "settings": {
-        "foreground": "#EE00FF"
+        "foreground": "#BB66FF"
       }
     },
     {
@@ -633,7 +641,7 @@
         "variable.other.shell"
       ],
       "settings": {
-        "foreground": "#EE00FF"
+        "foreground": "#BB66FF"
       }
     },
     {
@@ -644,7 +652,7 @@
         "keyword.other.DML.sql"
       ],
       "settings": {
-        "foreground": "#EE00FF"
+        "foreground": "#BB66FF"
       }
     },
     {
