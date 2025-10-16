@@ -48,12 +48,5 @@
 	"galleryBanner": {
 		"color": "#000000",
 		"theme": "dark"
-	},
-	"files": [
-		"themes",
-		"images",
-		"README.md",
-		"LICENSE.md",
-		"CHANGELOG.md"
-	]
+	}
 }
