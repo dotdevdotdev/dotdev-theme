@@ -1,0 +1,98 @@
+# dotdev-theme for Starship
+# Place this in ~/.config/starship.toml or merge with your existing config
+
+# Overall format
+format = """
+[](#00FF00)\
+$status\
+[](#00FF00)\
+$directory\
+$git_branch\
+$git_status\
+$line_break\
+$character\
+"""
+
+# Character (prompt symbol)
+[character]
+success_symbol = "[➜](bold #00FF00)"
+error_symbol = "[➜](bold #FF0000)"
+
+# Directory
+[directory]
+style = "bold #00FFCC"
+format = "[$path]($style) "
+truncation_length = 3
+truncate_to_repo = true
+
+# Git branch
+[git_branch]
+symbol = ""
+style = "bold #BB66FF"
+format = "[$symbol$branch]($style) "
+
+# Git status
+[git_status]
+style = "bold #FFFF00"
+format = '([$all_status$ahead_behind]($style) )'
+conflicted = "⚔️"
+ahead = "⇡${count}"
+behind = "⇣${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+untracked = "[?${count}](#FFFF00)"
+stashed = "📦"
+modified = "[!${count}](#FFFF00)"
+staged = "[+${count}](#00FF00)"
+renamed = "[»${count}](#00FFCC)"
+deleted = "[✘${count}](#FF0000)"
+
+# Status
+[status]
+style = "bold #FF0000"
+symbol = "✘"
+disabled = false
+format = '[\[$symbol$status\]]($style) '
+
+# Command duration
+[cmd_duration]
+min_time = 500
+style = "bold #CCCCCC"
+format = "[$duration]($style) "
+
+# Programming language contexts (optional styling)
+[nodejs]
+symbol = "⬢ "
+style = "#00FF00"
+format = "[$symbol($version )]($style)"
+
+[python]
+symbol = "🐍 "
+style = "#FFFF00"
+format = '[${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
+
+[rust]
+symbol = "🦀 "
+style = "#FF6600"
+format = "[$symbol($version )]($style)"
+
+[golang]
+symbol = "🐹 "
+style = "#00FFCC"
+format = "[$symbol($version )]($style)"
+
+[java]
+symbol = "☕ "
+style = "#BB66FF"
+format = "[$symbol($version )]($style)"
+
+[docker_context]
+symbol = "🐳 "
+style = "#00CCFF"
+format = "[$symbol$context]($style) "
+
+# Time (optional - uncomment to enable)
+# [time]
+# disabled = false
+# time_format = "%T"
+# style = "bold #CCCCCC"
+# format = '[$time]($style) '

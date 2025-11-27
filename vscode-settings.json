@@ -1,0 +1,162 @@
+{
+  "workbench.colorCustomizations": {
+    // Window
+    "window.activeBorder": "#000000",
+    "window.inactiveBorder": "#000000",
+    "panel.border": "#000000",
+    "panelTitle.activeBorder": "#000000",
+    "panelTitle.inactiveForeground": "#ffffff",
+
+    // Additional border fixes for bottom line issue
+    "statusBar.debuggingBorder": "#000000",
+    "statusBar.noFolderBorder": "#000000",
+    "statusBar.prominentBackground": "#000000",
+    "statusBar.prominentForeground": "#ffffff",
+    "statusBar.prominentHoverBackground": "#000000",
+    "statusBarItem.prominentBackground": "#000000",
+    "statusBarItem.prominentForeground": "#ffffff",
+    "statusBarItem.prominentHoverBackground": "#000000",
+
+    // Editor basic
+    "editor.background": "#000000",
+    "editor.foreground": "#ffffff",
+    "editorLineNumber.activeForeground": "#00FF00",
+
+    // Status Bar
+    "statusBarItem.errorForeground": "#FF0000",
+    "statusBar.background": "#000000",
+    "statusBar.border": "#000000",
+
+    // Activity Bar
+    "activityBar.background": "#000000",
+    "activityBar.foreground": "#00FF00",
+    "activityBar.activeBorder": "#00FF0000",
+    "activityBar.border": "#00000000",
+    "activityBarBadge.background": "#00FF0080",
+
+    // Tab
+    "tab.hoverBackground": "#555555",
+    "tab.activeBackground": "#333333",
+    "tab.activeBorder": "#00FF00",
+    "tab.activeForeground": "#00FF00",
+    "tab.unfocusedActiveForeground": "#00FF00",
+    "tab.hoverForeground": "#00FF00",
+    "tab.inactiveBackground": "#000000",
+    "editorGroupHeader.tabsBackground": "#000000",
+
+    // Sidebar
+    "sideBarTitle.foreground": "#FFFFFF",
+    "statusBar.foreground": "#FFFFFF",
+    "sideBar.foreground": "#FFFFFF",
+    "sideBar.background": "#000000",
+    "sideBarSectionHeader.background": "#00FF0008",
+    "sideBarSectionHeader.foreground": "#ffffff",
+    "sideBarSectionHeader.border": "#00FF0010",
+
+    // Sidebar tree/list selections
+    "tree.indentGuidesStroke": "#333333",
+    "tree.tableColumnsBorder": "#00FF0020",
+    "tree.tableOddRowsBackground": "#00FF0008",
+    "editorGroupHeader.tabsBorder": "#000000",
+
+    // Explorer specific selections
+    "explorer.hoverBackground": "#00FF0020",
+    "explorer.selectionBackground": "#00FF0030",
+    "explorer.selectionForeground": "#00FF00",
+    "explorer.focusBackground": "#00FF0030",
+    "explorer.focusForeground": "#00FF00",
+
+    // Open Editors and sidebar view selections
+    "openEditors.hoverBackground": "#00FF0020",
+    "openEditors.selectionBackground": "#00FF0030",
+    "openEditors.selectionForeground": "#00FF00",
+    "openEditors.focusBackground": "#00FF0030",
+    "openEditors.focusForeground": "#00FF00",
+    "sideBarViewItem.activeBackground": "#00FF0030",
+    "sideBarViewItem.activeForeground": "#00FF00",
+    "sideBarViewItem.hoverBackground": "#00FF0020",
+    "sideBarViewItem.focusBackground": "#00FF0030",
+
+    // Additional focus properties
+    "focusBorder": "#00FF00",
+    "selection.background": "#00FF0030",
+    "widget.shadow": "#00000080",
+
+    // Tree focus properties
+    "tree.inactiveIndentGuidesStroke": "#333333",
+    "tree.activeIndentGuidesStroke": "#00FF00",
+
+    // Workbench focus overrides
+    "workbench.focusedTabBorder": "#00FF00",
+    "workbench.inactiveFocusedTabBorder": "#00FF0080",
+    "workbench.selectionBackground": "#00FF0030",
+    "workbench.selectionForeground": "#00FF00",
+
+    // DiffEditor
+    "diffEditor.removedTextBackground": "#F4000045",
+    "diffEditor.removedLineBackground": "#F4000045",
+    "diffEditor.insertedTextBackground": "#39FF1410",
+    "diffEditor.insertedLineBackground": "#39FF1410",
+    "diffEditor.diagonalFill": "#00BFFF",
+    "diffEditorOverview.insertedForeground": "#39FF14",
+    "diffEditorOverview.removedForeground": "#F40000",
+
+    // EditorIndentGuide
+    "editorIndentGuide.activeBackground1": "#00ff00",
+    "editorIndentGuide.activeBackground2": "#00ff00",
+    "editorIndentGuide.activeBackground3": "#00ff00",
+    "editorIndentGuide.activeBackground4": "#00ff00",
+    "editorIndentGuide.activeBackground5": "#00ff00",
+    "editorIndentGuide.activeBackground6": "#00ff00",
+    "editorIndentGuide.background1": "#010",
+    "editorIndentGuide.background2": "#333",
+    "editorIndentGuide.background3": "#666",
+    "editorIndentGuide.background4": "#999",
+    "editorIndentGuide.background5": "#ccc",
+    "editorIndentGuide.background6": "#fff",
+
+    // Editor selection and highlighting
+    "editor.selectionBackground": "#00FF0025",
+    "editor.selectionHighlightBackground": "#00FF0020",
+    "editor.wordHighlightStrongBackground": "#00FF0015",
+    "editor.lineHighlightBackground": "#00FF0008",
+    "editor.lineHighlightBorder": "#00FF0010",
+
+    // List
+    "list.activeSelectionBackground": "#00FF0030",
+    "list.activeSelectionForeground": "#00FF00",
+    "list.focusBackground": "#00FF0025",
+    "list.focusForeground": "#00FF00",
+    "list.inactiveSelectionBackground": "#00FF0015",
+    "list.inactiveSelectionForeground": "#ffffff",
+    "list.inactiveFocusBackground": "#00FF0010",
+    "list.invalidItemForeground": "#ff5370",
+    "list.hoverBackground": "#00FF0020",
+    "list.hoverForeground": "#ffffff",
+    "list.highlightForeground": "#00FF00",
+    "list.filterMatchBackground": "#00FF0030",
+    "list.filterMatchBorder": "#00FF00",
+    "listFilterWidget.background": "#000000",
+    "listFilterWidget.outline": "#00FF00",
+    "listFilterWidget.noMatchesOutline": "#FF0000",
+
+    // Buttons and badges
+    "button.background": "#00FF00",
+    "button.foreground": "#000000",
+    "button.hoverBackground": "#00FF00",
+    "badge.background": "#00FF00",
+    "badge.foreground": "#000000",
+    "activityBarBadge.foreground": "#000000",
+
+    // Links
+    "textLink.foreground": "#00ff00",
+    "textLink.activeForeground": "#00ff00",
+
+    // Breadcrumbs
+    "breadcrumb.foreground": "#ffffff",
+    "breadcrumb.background": "#000000",
+    "breadcrumb.focusForeground": "#00ff00",
+    "breadcrumb.activeSelectionForeground": "#00ff00",
+    "breadcrumbPicker.background": "#000000"
+  }
+}
