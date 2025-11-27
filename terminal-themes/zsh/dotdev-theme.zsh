@@ -6,25 +6,21 @@
 autoload -Uz colors && colors
 setopt PROMPT_SUBST
 
-# Color definitions matching dotdev-theme
-DOTDEV_BLACK='%F{0}'
-DOTDEV_RED='%F{1}'
-DOTDEV_GREEN='%F{2}'
-DOTDEV_YELLOW='%F{3}'
-DOTDEV_BLUE='%F{4}'
-DOTDEV_MAGENTA='%F{5}'
-DOTDEV_CYAN='%F{6}'
-DOTDEV_WHITE='%F{7}'
+# Color definitions using true colors (RGB) matching dotdev-theme exactly
+# These use 24-bit color support for vibrant colors
+DOTDEV_BLACK='%F{#000000}'
+DOTDEV_RED='%F{#FF0000}'
+DOTDEV_GREEN='%F{#00FF00}'
+DOTDEV_YELLOW='%F{#FFFF00}'
+DOTDEV_BLUE='%F{#0077FF}'
+DOTDEV_MAGENTA='%F{#BB66FF}'
+DOTDEV_CYAN='%F{#00FFCC}'
+DOTDEV_WHITE='%F{#E6E6E6}'
 
-# Bright colors
-DOTDEV_BRIGHT_BLACK='%F{8}'
-DOTDEV_BRIGHT_RED='%F{9}'
-DOTDEV_BRIGHT_GREEN='%F{10}'
-DOTDEV_BRIGHT_YELLOW='%F{11}'
-DOTDEV_BRIGHT_BLUE='%F{12}'
-DOTDEV_BRIGHT_MAGENTA='%F{13}'
-DOTDEV_BRIGHT_CYAN='%F{14}'
-DOTDEV_BRIGHT_WHITE='%F{15}'
+# Additional theme colors
+DOTDEV_PURPLE='%F{#EE00FF}'
+DOTDEV_LIGHT_BLUE='%F{#99DDFF}'
+DOTDEV_GRAY='%F{#CCCCCC}'
 
 # Reset
 DOTDEV_RESET='%f'
@@ -33,29 +29,29 @@ DOTDEV_RESET='%f'
 git_prompt_info() {
     if git rev-parse --git-dir > /dev/null 2>&1; then
         local branch=$(git symbolic-ref --short HEAD 2>/dev/null || git rev-parse --short HEAD 2>/dev/null)
-        echo " ${DOTDEV_BRIGHT_MAGENTA}($branch)${DOTDEV_RESET}"
+        echo " ${DOTDEV_MAGENTA}($branch)${DOTDEV_RESET}"
     fi
 }
 
-# Git status indicator
+# Git status indicator - renamed variable to avoid conflict
 git_prompt_status() {
     if git rev-parse --git-dir > /dev/null 2>&1; then
-        local status=$(git status --porcelain 2>/dev/null)
-        if [[ -n $status ]]; then
-            echo " ${DOTDEV_BRIGHT_YELLOW}●${DOTDEV_RESET}"
+        local git_status_output=$(git status --porcelain 2>/dev/null)
+        if [[ -n $git_status_output ]]; then
+            echo " ${DOTDEV_YELLOW}●${DOTDEV_RESET}"
         else
-            echo " ${DOTDEV_BRIGHT_GREEN}✓${DOTDEV_RESET}"
+            echo " ${DOTDEV_GREEN}✓${DOTDEV_RESET}"
         fi
     fi
 }
 
 # Exit status indicator
 exit_status_indicator() {
-    echo "%(?.${DOTDEV_BRIGHT_GREEN}.${DOTDEV_BRIGHT_RED})➜${DOTDEV_RESET}"
+    echo "%(?.${DOTDEV_GREEN}.${DOTDEV_RED})➜${DOTDEV_RESET}"
 }
 
 # Build the prompt
-PROMPT='$(exit_status_indicator) ${DOTDEV_BRIGHT_CYAN}%~${DOTDEV_RESET}$(git_prompt_info)$(git_prompt_status) '
+PROMPT='$(exit_status_indicator) ${DOTDEV_CYAN}%~${DOTDEV_RESET}$(git_prompt_info)$(git_prompt_status) '
 
 # Right prompt with time (optional)
 # RPROMPT='${DOTDEV_WHITE}%*${DOTDEV_RESET}'
