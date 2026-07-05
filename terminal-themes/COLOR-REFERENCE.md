@@ -12,15 +12,15 @@ Quick reference for terminal theme colors extracted from the VS Code theme.
 | 3    | Yellow          | #ffd84d  | 255, 216, 77  | Functions, warnings              |
 | 4    | Blue            | #00bfff  | 0, 191, 255   | Directories, accent              |
 | 5    | Magenta         | #c06cf0  | 192, 108, 240 | Keywords, git branches           |
-| 6    | Cyan            | #00ffcc  | 0, 255, 204   | Constants, paths                 |
+| 6    | Cyan            | #1fe0e0  | 31, 224, 224  | Constants, paths                 |
 | 7    | White           | #d6dee6  | 214, 222, 230 | Comments, normal text            |
 | 8    | Bright Black    | #5c6670  | 92, 102, 112  | Dark gray (dim text)             |
 | 9    | Bright Red      | #ff8078  | 255, 128, 120 | Bright errors                    |
 | 10   | Bright Green    | #5cff9d  | 92, 255, 157  | Prompt success indicator         |
 | 11   | Bright Yellow   | #ffe88a  | 255, 232, 138 | Modified files, git status       |
-| 12   | Bright Blue     | #66d9ff  | 102, 217, 255 | Variables, parameters            |
+| 12   | Bright Blue     | #40cbff  | 64, 203, 255  | Variables, parameters            |
 | 13   | Bright Magenta  | #d79bf5  | 215, 155, 245 | Links, decorators                |
-| 14   | Bright Cyan     | #6effe0  | 110, 255, 224 | Constants, class names           |
+| 14   | Bright Cyan     | #5cf0f0  | 92, 240, 240  | Constants, class names           |
 | 15   | Bright White    | #ffffff  | 255, 255, 255 | Pure white (highlights)          |
 
 ## Extended Color Palette

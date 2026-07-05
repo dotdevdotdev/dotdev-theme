@@ -8,15 +8,15 @@
   --neon-red:    #ff5449;
   --neon-purple: #c06cf0;
   --neon-yellow: #ffd84d;
-  --neon-cyan:   #00ffcc;
+  --neon-cyan:   #1fe0e0;
 
   /* Lighter "bright" variants — hover / emphasis / ANSI-bright */
   --neon-green-bright:  #5cff9d;
-  --neon-blue-bright:   #66d9ff;
+  --neon-blue-bright:   #40cbff;
   --neon-red-bright:    #ff8078;
   --neon-purple-bright: #d79bf5;
   --neon-yellow-bright: #ffe88a;
-  --neon-cyan-bright:   #6effe0;
+  --neon-cyan-bright:   #5cf0f0;
 
   /* ── Neutrals ─────────────────────────────────── */
   --black:   #000000;
