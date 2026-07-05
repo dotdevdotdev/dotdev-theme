@@ -7,21 +7,21 @@ Quick reference for terminal theme colors extracted from the VS Code theme.
 | ANSI | Color Name      | Hex Code | RGB           | Use Case                          |
 |------|-----------------|----------|---------------|-----------------------------------|
 | 0    | Black           | #000000  | 0, 0, 0       | Background                        |
-| 1    | Red             | #FF0000  | 255, 0, 0     | Errors, deleted files            |
-| 2    | Green           | #00FF00  | 0, 255, 0     | Strings, success, added files    |
-| 3    | Yellow          | #FFFF00  | 255, 255, 0   | Functions, warnings              |
-| 4    | Blue            | #0077FF  | 0, 119, 255   | Directories (lighter blue)       |
-| 5    | Magenta         | #BB66FF  | 187, 102, 255 | Keywords, git branches           |
-| 6    | Cyan            | #00FFCC  | 0, 255, 204   | Constants, paths                 |
-| 7    | White           | #CCCCCC  | 204, 204, 204 | Comments, normal text            |
-| 8    | Bright Black    | #555555  | 85, 85, 85    | Dark gray (dim text)             |
-| 9    | Bright Red      | #FF0000  | 255, 0, 0     | Bright errors                    |
-| 10   | Bright Green    | #00FF00  | 0, 255, 0     | Prompt success indicator         |
-| 11   | Bright Yellow   | #FFFF00  | 255, 255, 0   | Modified files, git status       |
-| 12   | Bright Blue     | #99DDFF  | 153, 221, 255 | Variables, parameters            |
-| 13   | Bright Magenta  | #EE00FF  | 238, 0, 255   | Links, decorators                |
-| 14   | Bright Cyan     | #00FFCC  | 0, 255, 204   | Constants, class names           |
-| 15   | Bright White    | #FFFFFF  | 255, 255, 255 | Pure white (highlights)          |
+| 1    | Red             | #ff5449  | 255, 84, 73   | Errors, deleted files            |
+| 2    | Green           | #00ff66  | 0, 255, 102   | Strings, success, added files    |
+| 3    | Yellow          | #ffd84d  | 255, 216, 77  | Functions, warnings              |
+| 4    | Blue            | #00bfff  | 0, 191, 255   | Directories, accent              |
+| 5    | Magenta         | #c06cf0  | 192, 108, 240 | Keywords, git branches           |
+| 6    | Cyan            | #00ffcc  | 0, 255, 204   | Constants, paths                 |
+| 7    | White           | #d6dee6  | 214, 222, 230 | Comments, normal text            |
+| 8    | Bright Black    | #5c6670  | 92, 102, 112  | Dark gray (dim text)             |
+| 9    | Bright Red      | #ff8078  | 255, 128, 120 | Bright errors                    |
+| 10   | Bright Green    | #5cff9d  | 92, 255, 157  | Prompt success indicator         |
+| 11   | Bright Yellow   | #ffe88a  | 255, 232, 138 | Modified files, git status       |
+| 12   | Bright Blue     | #66d9ff  | 102, 217, 255 | Variables, parameters            |
+| 13   | Bright Magenta  | #d79bf5  | 215, 155, 245 | Links, decorators                |
+| 14   | Bright Cyan     | #6effe0  | 110, 255, 224 | Constants, class names           |
+| 15   | Bright White    | #ffffff  | 255, 255, 255 | Pure white (highlights)          |
 
 ## Extended Color Palette
 

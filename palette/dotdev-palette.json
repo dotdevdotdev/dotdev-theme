@@ -1,0 +1,59 @@
+{
+  "$name": "dotdev / agentwire canonical palette",
+  "$description": "Neon on black, dark-only. Platform-agnostic token source of truth.",
+  "brand": {
+    "green": "#00ff66",
+    "blue": "#00bfff",
+    "red": "#ff5449",
+    "purple": "#c06cf0",
+    "yellow": "#ffd84d",
+    "cyan": "#00ffcc"
+  },
+  "bright": {
+    "green": "#5cff9d",
+    "blue": "#66d9ff",
+    "red": "#ff8078",
+    "purple": "#d79bf5",
+    "yellow": "#ffe88a",
+    "cyan": "#6effe0"
+  },
+  "neutral": {
+    "black": "#000000",
+    "white": "#ffffff",
+    "gray": "#5c6670",
+    "foreground": "#d6dee6",
+    "surface": "#0b0f0e",
+    "border": "#1a2420"
+  },
+  "semantic": {
+    "background": "#000000",
+    "foreground": "#d6dee6",
+    "primary": "#00ff66",
+    "accent": "#00bfff",
+    "secondary": "#00ffcc",
+    "destructive": "#ff5449",
+    "warning": "#ffd84d",
+    "info": "#c06cf0",
+    "success": "#00ff66",
+    "muted": "#5c6670",
+    "ring": "#00ff66"
+  },
+  "ansi": {
+    "0":  { "name": "black",          "hex": "#000000" },
+    "1":  { "name": "red",            "hex": "#ff5449" },
+    "2":  { "name": "green",          "hex": "#00ff66" },
+    "3":  { "name": "yellow",         "hex": "#ffd84d" },
+    "4":  { "name": "blue",           "hex": "#00bfff" },
+    "5":  { "name": "magenta",        "hex": "#c06cf0" },
+    "6":  { "name": "cyan",           "hex": "#00ffcc" },
+    "7":  { "name": "white",          "hex": "#d6dee6" },
+    "8":  { "name": "bright-black",   "hex": "#5c6670" },
+    "9":  { "name": "bright-red",     "hex": "#ff8078" },
+    "10": { "name": "bright-green",   "hex": "#5cff9d" },
+    "11": { "name": "bright-yellow",  "hex": "#ffe88a" },
+    "12": { "name": "bright-blue",    "hex": "#66d9ff" },
+    "13": { "name": "bright-magenta", "hex": "#d79bf5" },
+    "14": { "name": "bright-cyan",    "hex": "#6effe0" },
+    "15": { "name": "bright-white",   "hex": "#ffffff" }
+  }
+}
