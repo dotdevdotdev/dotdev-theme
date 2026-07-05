@@ -26,6 +26,7 @@
     "border": "#1a2420"
   },
   "semantic": {
+    "$note": "In CSS these are exposed as --palette-<name> (prefixed) — bare names like --primary/--accent/--border collide with shadcn HSL-triple tokens consumed via hsl(var(--x)).",
     "background": "#000000",
     "foreground": "#d6dee6",
     "primary": "#00ff66",

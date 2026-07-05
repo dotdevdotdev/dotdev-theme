@@ -26,16 +26,21 @@
   --surface: #0b0f0e;  /* elevated panels above the black ground */
   --border:  #1a2420;  /* hairlines on black, faint green bias */
 
-  /* ── Semantic aliases (style components through these) ── */
-  --background:  var(--black);
-  --foreground:  var(--fg);
-  --primary:     var(--neon-green);
-  --accent:      var(--neon-blue);
-  --secondary:   var(--neon-cyan);
-  --destructive: var(--neon-red);
-  --warning:     var(--neon-yellow);
-  --info:        var(--neon-purple);
-  --success:     var(--neon-green);
-  --muted:       var(--gray);
-  --ring:        var(--neon-green);
+  /* ── Semantic aliases (style components through these) ──
+   * Prefixed --palette-* on purpose: bare names like --primary / --accent /
+   * --border collide with shadcn/Tailwind setups that store them as HSL
+   * triples consumed via hsl(var(--x)); aliasing those to hex silently
+   * breaks color rendering. Keep the prefix. */
+  --palette-background:  var(--black);
+  --palette-foreground:  var(--fg);
+  --palette-primary:     var(--neon-green);
+  --palette-accent:      var(--neon-blue);
+  --palette-secondary:   var(--neon-cyan);
+  --palette-destructive: var(--neon-red);
+  --palette-warning:     var(--neon-yellow);
+  --palette-info:        var(--neon-purple);
+  --palette-success:     var(--neon-green);
+  --palette-muted:       var(--gray);
+  --palette-border:      var(--border);
+  --palette-ring:        var(--neon-green);
 }
